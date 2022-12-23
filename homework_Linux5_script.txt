@@ -1,0 +1,6 @@
+#!/bin/bash
+mkdir -p /tmp/ANNA_
+touch /tmp/ANNA_/anna.txt
+date >> /tmp/ANNA_/anna.txt
+echo "it works!" >> /tmp/ANNA_/anna.txt
+cp /tmp/ANNA_/anna.txt /opt
